@@ -11,7 +11,7 @@ import Cardimg4 from "../Assets/lnct_event3.jpg";
 const cardData = [
     {
         image: Cardimg1,
-        title: "Lizard",
+        title: "Donkey",
         description: "Lizards are a widespread group of squamate reptiles, with over 6,000 species.",
     },
     {
