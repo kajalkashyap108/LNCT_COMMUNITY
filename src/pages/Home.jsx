@@ -7,6 +7,8 @@ import Cardimg1 from "../Assets/lnct_event.jpg";
 import Cardimg2 from "../Assets/lnct_event1.jpg";
 import Cardimg3 from "../Assets/lnct_event2.jpg";
 import Cardimg4 from "../Assets/lnct_event3.jpg";
+import { Box} from "@mui/material";
+
 
 const cardData = [
     {
@@ -33,15 +35,15 @@ const cardData = [
 
 function Home() {
     return (
-        <div>
+        <Box>
             <Navbar />
-            <div style={{ position: 'relative', width: '100%', marginTop: '-50px' }}>
+            <Box style={{ position: 'relative', width: '100%', marginTop: '-50px' }}>
                 <img 
                     src={Hero} 
                     alt="Community" 
                     style={{ width: '100%', height: '60vh', objectFit: 'cover' }} 
                 />
-                <div style={{
+                <Box style={{
                     position: 'absolute',
                     top: '0',
                     left: '0',
@@ -57,9 +59,9 @@ function Home() {
                 }}>
                     <h1>Your Overlay Text Here</h1>
                     <p>Some additional description can go here.</p>
-                </div>
-            </div>
-            <div style={{ padding: "20px", marginBottom: "150px", display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+                </Box>
+            </Box>
+            <Box style={{ padding: "20px", marginBottom: "150px", display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                 {cardData.map((card, index) => (
                     <MediaCard 
                         key={index} // Use a unique key, like an index or an id if available
@@ -68,9 +70,9 @@ function Home() {
                         description={card.description} 
                     />
                 ))}
-            </div>
+            </Box>
             <Footer />
-        </div>
+        </Box>
     );
 }
 
