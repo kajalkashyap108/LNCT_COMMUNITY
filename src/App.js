@@ -14,6 +14,8 @@ import Announcement from './pages/Announcement & news';
 import Groups from './pages/Groups & clubs';
 import Resources from './pages/Resources';
 import Alumni from './pages/Alumni pages';
+import Pic from './pages/Pic';
+import { Component } from 'react';
 
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
               <Route path="/Groups" Component={Groups} />
               <Route path="/Resources" Component={Resources} />
               <Route path="/Alumni" Component={Alumni} />
+              <Route path="/Pic" Component={Pic} />
 
              
         </Routes>

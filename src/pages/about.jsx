@@ -39,11 +39,11 @@ function About() {
   direction={{ xs: 'column', sm: 'row' }}
   spacing={{ xs: 1, sm: 2, md: 4 }}
 > 
-<img src={Abtimg1}></img> 
-<img src={Abtimg2}></img>
-<img src={Abtimg3}></img>
-<img src={Abtimg4}></img>
-<img src={Abtimg5}></img>
+<img src={Abtimg1}height={350}width={350} style={{objectFit:'cover'}}></img> 
+<img src={Abtimg2}height={350}width={350} style={{objectFit:'cover'}}></img>
+<img src={Abtimg3}height={350}width={350} style={{objectFit:'cover'}}></img>
+<img src={Abtimg4}height={350}width={350} style={{objectFit:'cover'}}></img>
+<img src={Abtimg5}height={350}width={350} style={{objectFit:'cover'}}></img>
 </Stack>
                           
                 </div>
