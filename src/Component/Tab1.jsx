@@ -6,9 +6,10 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import Tabtext from './Tabtext';
 const data = [
-  { date: "Today", year: "2023", heading: "Event One", description: "Description for event one." },
-  { date: "02", year: "2023", heading: "Event Two", description: "Description for event two." },
-  { date: "03", year: "2023", heading: "Event Three", description: "Description for event three." },
+  { date: "Today", year: "2023", heading: "The Era of Zero is Comming!", description: "hmm honge kaamyaab" },
+  { date: "june", year: "2020", heading: "Trading Ethereum Derivatives", description: "pura hai viswaas." },
+  { date: "june 01", year: "2020", heading: "How do i Add margin to a Position", description: "honge kaabtaab ek din" },
+  { date: "May 29", year: "2020", heading: "What are Conditional orders?", description: "honge kaabtaab ek din" },
 ];
 export default function LabTabs() {
   const [value, setValue] = React.useState('1');
@@ -43,6 +44,7 @@ export default function LabTabs() {
         
         <TabPanel value="2">News</TabPanel>
         <TabPanel value="3">Activities</TabPanel>
+
       </TabContext>
 
     </Box>

@@ -57,8 +57,8 @@ function Home() {
                     textAlign: 'center',
                     padding: '20px',
                 }}>
-                    <h1>Your Overlay Text Here</h1>
-                    <p>Some additional description can go here.</p>
+                    <h1>Welcome to LNCT community</h1>
+                    
                 </Box>
             </Box>
             <Box style={{ padding: "20px", marginBottom: "150px", display: "flex", flexDirection: "row", justifyContent: "space-between" }}>

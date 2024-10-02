@@ -7,7 +7,7 @@ import { styled } from '@mui/material/styles';
 import MediaCard from "../Component/Cards";
 import Abtimg1 from "../Assets/choukesy_lnct.jpg";
 import Abtimg2 from "../Assets/ladies_lnct.jpg";
-import Abtimg3 from "../Assets/IMG_20240828_103114.jpg";
+import Abtimg3 from "../Assets/lnct anupam sir.jpg";
 import Abtimg4 from "../Assets/mca_head.jpg";
 import Abtimg5 from "../Assets/principle_lnct.jpg";
 
@@ -39,11 +39,11 @@ function About() {
   direction={{ xs: 'column', sm: 'row' }}
   spacing={{ xs: 1, sm: 2, md: 4 }}
 > 
-<img src={Abtimg1}height={350}width={350} style={{objectFit:'cover'}}></img> 
-<img src={Abtimg2}height={350}width={350} style={{objectFit:'cover'}}></img>
-<img src={Abtimg3}height={350}width={350} style={{objectFit:'cover'}}></img>
-<img src={Abtimg4}height={350}width={350} style={{objectFit:'cover'}}></img>
-<img src={Abtimg5}height={350}width={350} style={{objectFit:'cover'}}></img>
+<img src={Abtimg1}height={350}width={250} style={{objectFit:'cover'}}></img> 
+<img src={Abtimg2}height={350}width={250} style={{objectFit:'cover'}}></img>
+<img src={Abtimg3}height={350}width={250} style={{objectFit:'cover'}}></img>
+<img src={Abtimg4}height={350}width={250} style={{objectFit:'cover'}}></img>
+<img src={Abtimg5}height={350}width={250} style={{objectFit:'cover'}}></img>
 </Stack>
                           
                 </div>
